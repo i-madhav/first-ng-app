@@ -1,0 +1,20 @@
+<!-- <p>user-profile works!</p>
+<h4>Name - {{name | uppercase}} Age - {{age}} </h4>
+<h3>{{phoneno | cCode}} </h3>
+<button [disabled]="isBtn">Click me</button>
+<input type="text" [value]="onValue" (input)="render($event)">
+<h4>{{onValue}} </h4>
+<input type="text" [(ngModel)]="onValue">
+
+<div>
+    @for (item of users; track $index) {
+        @if (item.single) {
+            <h2>{{$index}}</h2>
+            <p>Name - {{item.name}}</p>
+        }
+    }
+</div>  -->
+
+
+ <h4 #myHeading>{{Username}} </h4> <!--#myHeading is a template var used to hold refrence of the element  -->
+<button (click)="sendData()" >Send data</button> 
